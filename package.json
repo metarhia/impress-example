@@ -1,10 +1,10 @@
 {
   "name": "example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Impress Application Server instance",
   "dependencies": {
-    "impress": "0.3.x"
+    "impress": "0.4.x"
   },
   "engines": {
     "node": ">=0.10.6"

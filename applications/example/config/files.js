@@ -1,10 +1,12 @@
 {
-  index: true,
-  cacheSize: '50mb',
-  cacheMaxFileSize: '10mb',
-  gzip: true,
+  // Static files configuration
+
+  index: true, // displaye HTTP directory index for /static
+  cacheSize: '50mb', // memory cache size
+  cacheMaxFileSize: '10mb', // max file size to cache
+  gzip: true, // default true
   preprocess: [
-    //'js',
-    //'sass'
+    // 'js', // minify js
+    // 'sass' // compile sass to css
   ]
 }

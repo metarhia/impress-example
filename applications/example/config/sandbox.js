@@ -7,31 +7,36 @@
   //
   // global: [
   //  'require', 'console', 'Buffer', 'SlowBuffer',
-  //  'setTimeout', 'clearTimeout', 'setInterval', 'clearInterval', 'setImmediate', 'clearImmediate'
+  //  'setTimeout', 'clearTimeout', 'setInterval',
+  //  'clearInterval', 'setImmediate', 'clearImmediate'
   // ],
 
   // Following identifiers will be visible in sandbox as api.<name>
   //
   api: [
     // Node internal modules
-    'console', 'os', 'fs', 'sd', 'tls','net', 'dns', 'url', 'util', 'path', 'zlib', 'http', 'https', 'dgram',
-    'stream', 'buffer', 'domain', 'crypto', 'events', 'punycode', 'readline', 'querystring', 'process', 'timers',
+    'console', 'os', 'fs', 'sd', 'tls', 'net', 'dns', 'url', 'util', 'path',
+    'zlib', 'http', 'https', 'dgram', 'stream', 'buffer', 'domain', 'crypto',
+    'events', 'readline', 'querystring', 'process', 'timers',
 
     // Impress API modules
-    'db', 'con', 'jstp', 'json', 'common', 'impress', 'metasync', 'registry', 'definition',
+    'db', 'con', 'json', 'common', 'registry', 'definition',
 
     // Preinstalled modules
     'csv',
-    'async',
     'iconv',
-    'colors',
     'zipStream', // npm module zip-stream
+
+    // Metarhia modules
+    'jstp',
+    'metasync',
 
     // Additional modules
     //'mkdirp',
     //'geoip',
     //'nodemailer',
     //'request',
+    //'async',
 
     // Passport providers
     //'passport',         // npm install passport
